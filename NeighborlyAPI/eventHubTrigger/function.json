@@ -1,0 +1,12 @@
+{
+  "scriptFile": "__init__.py",
+  "bindings": [
+    {
+      "type": "eventGridTrigger",
+      "name": "event",
+      "direction": "in",
+      "eventHubName": "vinheventhubinstancepj2",
+      "connection": "Endpoint=sb://vinheventhubpj2.servicebus.windows.net/;SharedAccessKeyName=RootManageSharedAccessKey;SharedAccessKey=bTVw6lpjomVAfu7yAf6sZPgDeiYNVPZHm+AEhOcbZXQ=;EntityPath=vinheventhubinstancepj2"
+    }
+  ]
+}
